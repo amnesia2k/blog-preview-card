@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  max-width: 1440px;
+  width: 100%;
+  background: #f4d04e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.big-box {
+  background: #ffffff;
+  border-radius: 15px;
+  max-width: 384px;
+  width: 100%;
+  height: 522px;
+  border: 1px black solid;
+  box-shadow: 10px 10px 0 black;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+}
+
+.img-box img {
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.text-box {
+  width: 336px;
+}
+
+.head-text {
+  margin-top: 20px;
+  background: #f4d04e;
+  width: 82px;
+  height: 29px;
+  border-radius: 5px;
+}
+
+.head-text p {
+  color: #121212;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px;
+}
+
+.published {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.body-heading p {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 900;
+  color: black;
+  cursor: pointer;
+}
+
+.body-heading:hover {
+  color: #f4d04e;
+}
+
+.body-paragraph {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6b6b6b;
+}
+
+.profile-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-box img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile-box p {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+
+/* Mobile View */
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-box {
+    width: 327px;
+    height: 501px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-rows: auto 1fr;
+    justify-content: center; */
+  }
+
+  .img-box img {
+    margin-top: -10px;
+    border-radius: 10px;
+    width: 279px;
+  }
+
+  .text-box {
+    width: 279px;
+  }
+
+  .body-heading p {
+    font-size: 23px;
+  }
+
+
+}
+
+
+
