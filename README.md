@@ -59,7 +59,7 @@ I want to keep practicing Media Queries because i am not yet proficient with it.
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=3n22cowxoKU) - This helped me for styling the Box-Shadow and it was really helpful.
+- [Box Shadow Resource](https://www.youtube.com/watch?v=3n22cowxoKU) - This helped me for styling the Box-Shadow and it was really helpful.
 
 ## Author
 
